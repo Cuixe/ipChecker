@@ -1,0 +1,26 @@
+{
+  "name": "ipchecker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ipChecker.js",
+  "scripts": {
+    "start": "node main/ipChecker.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cuixe/ipChecker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cuixe/ipChecker/issues"
+  },
+  "homepage": "https://github.com/Cuixe/ipChecker#readme",
+  "dependencies": {
+    "public-ip": "4.0.0",
+    "node-rest-client": "3.1.0",
+    "node-cron": "2.0.3",
+    "properties-reader": "0.3.1"
+  }
+}
